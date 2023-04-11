@@ -1,0 +1,40 @@
+.filter-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    min-height:20vh;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    padding:1rem;
+    margin-bottom: 2rem;
+    .filter{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        p{
+            display: inline-block;
+            padding: 0 0.5rem;
+        }
+    }
+    .button{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+        button{
+            background-color: #136FED;
+            width:5rem;
+            color:white;
+            height:2rem;
+        }
+        .close{
+            margin-right: 1rem;
+            border:none;
+            background: transparent;
+            width:5rem;
+            font-weight: 700;
+            color:black;
+        }
+        
+        
+    }
+}

@@ -1,0 +1,41 @@
+.header-wrapper{
+    margin-top: 0;
+    padding:1rem;
+    align-items: left;
+    text-align: left;
+    // background-color: rgb(240, 236, 236);
+    .top-text{
+        margin-bottom: 1rem;
+        h4{
+            font-size: 1.3rem;
+        }
+    }
+    .headers-lists{
+        width:100%;
+        
+    }
+    .toggle-btn{
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        .close, .save{
+            width:8rem;
+            margin-right: 1rem;
+            padding:0.5rem;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        .close{
+            background-color: transparent;
+            color:#116FED;
+            border:1px solid #116FED;
+        }
+        .save{
+            background-color: #116FED;
+            color:white;
+        }
+    }
+    
+}

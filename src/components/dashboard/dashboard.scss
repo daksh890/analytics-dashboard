@@ -1,0 +1,34 @@
+.dashboard-wrapper{
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    min-height: 91vh;
+    border-left: 80px solid rgb(0, 0, 82);
+    padding-top: 3rem;
+    margin-top: 0;
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        margin:0 auto;
+        .head{
+            font-size: 1rem;
+            text-align: left;
+        }
+        .settings{
+            margin-top: 2rem;
+            padding-left: 0.6rem;
+            // background-color: antiquewhite;
+            .settings-tab{
+                width:100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .settings-toggle{
+                    width: 6.5rem;
+                }
+            }
+        }
+    }
+}
