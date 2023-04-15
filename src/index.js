@@ -10,7 +10,7 @@ import { Provider } from "react-redux";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <HashRouter>
+    <HashRouter basename="/">
       <React.StrictMode>
         <App />
       </React.StrictMode>
