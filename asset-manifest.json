@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/analytics-dashboard/static/css/main.adef6442.css",
+    "main.js": "/analytics-dashboard/static/js/main.6fe8dd01.js",
+    "index.html": "/analytics-dashboard/index.html",
+    "main.adef6442.css.map": "/analytics-dashboard/static/css/main.adef6442.css.map",
+    "main.6fe8dd01.js.map": "/analytics-dashboard/static/js/main.6fe8dd01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adef6442.css",
+    "static/js/main.6fe8dd01.js"
+  ]
+}
